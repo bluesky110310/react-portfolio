@@ -6,8 +6,6 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 
 import particlesRain from "../particles/particlesRain";
-import particlesLine from "../particles/particlesLine";
-import particlesStar from "../particles/particlesStar";
 
 const particleStyle = {
     heigth: "100vh",
@@ -34,8 +32,6 @@ function Intro(props) {
     
     const selectParitlces = {
         "Rain": particlesRain,
-        "Line": particlesLine,
-        "Star": particlesStar
         }
     return (
         <Box style={introStyle}>

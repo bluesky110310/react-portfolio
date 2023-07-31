@@ -17,26 +17,11 @@ function App() {
     // const pages = ['Home', 'About', 'Skills', 'Portfolio', 'Employment', 'WorkExperience', 'Education'];
     
     // const settings = ['Rain', 'Line', 'Star'];
-    const [particleVal, setParticleVal] = React.useState('Rain');
-    const selectParitlces = function (val) {
-        switch(val) {
-            case "Rain":
-                setParticleVal('Rain');
-                break;
-            case "Line":
-                setParticleVal('Line');
-                break;
-            case "Star":
-                setParticleVal('Star');
-                break;
-            default:
-                break;
-        }
-    }
+    // const [particleVal, setParticleVal] = React.useState('Rain');
     return (
         <CustomBox>
             {/* <Navbar pages={pages} settings={settings} settingAction={selectParitlces}></Navbar> */}
-            <Intro particleValue={particleVal}></Intro>
+            <Intro particleValue="Rain"></Intro>
             <About></About>
             <Skills skillNames={skillNames} skillValues={skillValues}></Skills>
             <Portfolio></Portfolio>
