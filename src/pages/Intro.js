@@ -47,6 +47,7 @@ function Intro(props) {
             </Box>
             <Typography variant="h4" color="green">joaodavidmarketing@gmail.com</Typography>
             <Typography variant="h4" color="green">+1 (303) 731-3397</Typography>
+            <Typography variant="h4" color="green">Professor Lucas Souza da Silva, Governador Valadares, Brazil</Typography>
             <Typography variant="h3" color="white">
             <ReactTypingEffect
             text="I'm a Full-stack Developer."
