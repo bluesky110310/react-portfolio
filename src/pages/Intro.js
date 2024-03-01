@@ -5,7 +5,7 @@ import { Box, Typography  } from '@mui/material';
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 
-import particlesRain from "../particles/particlesRain";
+import particlesStar from "../particles/particlesStar";
 
 const particleStyle = {
     heigth: "100vh",
@@ -21,7 +21,7 @@ const introStyle = {
     flexDirection: "column",
     alignItems: "center",
     justifyContent: "center",
-    height: "100vh",
+    height: "80vh",
 }
 
 function Intro(props) {
@@ -31,7 +31,7 @@ function Intro(props) {
     const {particleValue} = props;
     
     const selectParitlces = {
-        "Rain": particlesRain,
+        "Rain": particlesStar,
         }
     return (
         <Box style={introStyle}>
@@ -43,15 +43,14 @@ function Intro(props) {
                 justifyContent: "center",
                 pointerEvents: "none"
             }}>
-                <Typography variant="h1" color="error">Joao David De Souza Alves</Typography>
+                <Typography variant="h1" color="goldenrod" style={{ fontWeight: 'bold', fontFamily: 'cursive' }}>Joao Souza</Typography>
             </Box>
-            <Typography variant="h4" color="green">joaodavidmarketing@gmail.com</Typography>
-            <Typography variant="h4" color="green">+1 (303) 731-3397</Typography>
-            <Typography variant="h4" color="green">Professor Lucas Souza da Silva, Governador Valadares, Brazil</Typography>
-            <Typography variant="h3" color="white">
+            <Typography variant="h4" color="paleturquoise" style={{ fontFamily: 'cursive', margin: 10 }}>joaosouza.dev1@outlook.com, <span style={{ color: 'hotpink' }}>+1 (321) 421-0338</span></Typography>
+            <Typography variant="h4" color="yellowgreen" style={{ margin: 10 }}>Patriotiv st. b. 5, ap. 17, Kyiv, Ukraine, 03620</Typography>
+            <Typography variant="h3" color="snow" style={{ fontFamily: 'cursive' }}>
             <ReactTypingEffect
-            text="I'm a Full-stack Developer."
-            speed="100"
+            text="Senior Software Engineer"
+            speed="200"
             eraseDelay="100"
             />
             </Typography>

@@ -13,97 +13,88 @@ const divStyle = {
 export default function Employment() {
   return (
     <div style={divStyle} id={"back-to-Employment"}>
-      <TypographyCaption>Employment</TypographyCaption>
+      <TypographyCaption>Work Experience</TypographyCaption>
       <CardContent>
         <ColorCard
           caption={"Self-Employed"}
-          period={"Jan 2022 - Mar 2023"}
+          period={"Mar 2022 - May 2023"}
           contentCap={"Senior Software Engineer"}
         >
           <ul>
             <li>
-              Worked on <b>4+</b> projects using <b>Spring</b> frameworks, <b>MERN</b> & <b>MEAN</b> Stack, including the website development from the scratch.
+              Designed and developed user interfaces using <b>Spring Framework</b>, <b>Spring Boot</b>, <b>Spring JPA</b>, <b>JSP</b>, <b>HTML</b>, <b>CSS</b>, <b>React</b>.
             </li>
             <li>
-              Built <b>3+</b> client’s websites with <b>Laravel</b>, <b>Symfony</b> & <b>WordPress</b>.
+              Created a <b>Java</b> Bean based testing tools with <b>XML</b> input requests and <b>XML</b>/<b>Document</b> outputs.
             </li>
             <li>
-              Worked on cloud computing for developing websites using <b>Python</b> &<b>Django</b>.
-            </li>
-            <li>
-              Developed the website, integrated with full-text search engines such as <b>Solr</b>.
-            </li>
-            <li>
-              Designed, architected, and implemented scalable cloud-based web applications using <b>AWS</b>, <b>Microservices</b> & <b>GCP</b>, etc.
+              Initiated the application of <b>Java 8</b> features, causing a code compaction of <b>25%</b>.
             </li>
           </ul>
         </ColorCard>
         <ColorCard
-          caption={"Cloudwave"}
-          period={"May 2017 - Nov 2021"}
-          contentCap={"Senior Full Stack Java Developer"}
+          caption={"LastPass"}
+          period={"Jun 2017 - Dec 2021"}
+          contentCap={"Senior Full Stack Developer"}
         >
           <ul>
             <li>
-              Developed business enterprise websites from the scratch using <b>Alfresco</b> & <b>ADF</b>.
+              Designed and implemented <b>SaaS</b> platform using <b>Python</b>, <b>Django</b>, <b>GraphQL</b>, <b>PostgreSQL</b>, <b>MongoDB</b>, <b>Firebase</b>, and <b>AWS</b>.
             </li>
             <li>
-              Designed and implemented an application using <b>JSP</b>, <b>Spring MVC</b>, <b>Spring IOC</b>, <b>Spring Annotations</b>, <b>Spring AOP</b>, <b>Spring Transactions</b> & <b>Hibernate</b>.
+              Heavy <b>JDBC</b> programming writing complex <b>SQL</b> and stored procedures for CRUD operations.
             </li>
             <li>
-              Developed, tested, and maintained current systems written in <b>PHP</b> & <b>Laravel</b>.
+              Updated a custom <b>PHP</b> framework to introduce modern tools like <b>Docker</b>, <b>NPM</b>, <b>Composer</b>, <b>PHPUnit</b>, and Doctrine Migrations.
             </li>
             <li>
-              Responsible for installing, configuring and maintaining <b>CodeIgniter</b>, <b>PHP</b>, <b>Apache</b> and <b>MySQL</b> on <b>AWS</b> cloud servers.
+              Experienced in developing Web-based Applications using <b>Python</b>, <b>Bootstrap</b>, <b>CSS3</b>, <b>HTML5</b>, <b>JavaScript</b>, <b>Angular</b>, <b>React</b> and <b>jQuery</b>, <b>Microservices</b>.
             </li>
             <li>
-              Created <b>RESTful APIs</b> using <b>Node.js</b> and consumed them with <b>Angular.js</b>.
+              Created an admin panel and associated design system in <b>React</b> and Storybook to be used by clients and the internal admin.
             </li>
             <li>
-              Collaborated with backend, and client engineers to help build features, and solve creative problems.
+              Became the go-to person for numerous areas of the app such as <b>React</b>, <b>GraphQL</b>, and testing, helping others in the team and proposing improvements on the usage of those.
             </li>
           </ul>
         </ColorCard>
         <ColorCard
-          caption={"LEOCODE"}
-          period={"Jun 2014 - Apr 2017"}
+          caption={"Intetics Inc"}
+          period={"Sep 2014 - May 2017"}
           contentCap={"Full Stack Developer"}
         >
           <ul>
             <li>
-              Worked on <b>3+</b> Websites, Health/Fitness sites, and E-commerce sites.
+              Implemented <b>MVC</b> pattern using <b>JSP</b> and <b>Spring</b> Controller.
             </li>
             <li>
-              Improved functionality of web applications with <b>JSP</b> & <b>Servlets</b>, <b>Python</b> & <b>Django</b>.
+              Worked in a team and developed a new UI framework based on a styled system, <b>TypeScript</b> and <b>React</b>.
             </li>
             <li>
-              Created <b>2+</b> website using <b>CodeIgniter</b> + <b>Bootstrap</b>, <b>Laravel</b> + <b>Vue.js</b>.
+              Developed <b>Python</b> based <b>RESTful APIs</b> using <b>Django</b>, <b>SQLAlchemy</b> and <b>PostgreSQL</b> & Implemented client-side Interface using <b>React</b>.
             </li>
             <li>
-              Effectively communicated within a multi-disciplined team, across <b>6+</b> locations and <b>3+</b> time zones.
+              Development with Relational Database Management Systems including <b>MySQL</b> and <b>PostgreSQL</b>.
             </li>
             <li>
-              Adhered <b>100%</b> to standards and best practices around development processes, coding, and peer reviews.
-            </li>
-            <li>
-              Wrote clean, maintainable, scalable, and well-tested code.
+              Contributed to the integration with different APIs using <b>REST</b> and <b>GraphQL</b>.
             </li>
           </ul>
         </ColorCard>
         <ColorCard
-          caption={"10Clouds"}
-          period={"Oct 2012 - May 2014"}
-          contentCap={"Jr. Web Developer"}
+          caption={"Dash Technologies Inc"}
+          period={"Jan 2013 - Aug 2014"}
+          contentCap={"Web Developer"}
         >
           <ul>
             <li>
-              Built <b>5+</b> Web Applications powered by bulletproof code, with stunning interfaces using <b>React</b>, <b>Angular</b> & <b>Node.js</b> + <b>Express</b>.
+              Designed and developed user interfaces using <b>Spring Framework</b>.
             </li>
             <li>
-              Partnered with a developer to implement <b>RESTful APIs</b> in <b>PHP</b>, enabling the analytics team to increase reporting speed by <b>20%</b>.
+              Developed web applications using UI technologies such as <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>, <b>jQuery</b>, <b>React</b>, <b>Angular</b>, <b>JSON</b>, <b>Bootstrap</b> and <b>Ajax</b>.
             </li>
             <li>
-              Worked on back-end part using <b>PHP</b> & <b>Node.js</b>.
+              Built a responsive website prototype for WestJet Vacations using <b>AngularJS</b>.
             </li>
           </ul>
         </ColorCard>

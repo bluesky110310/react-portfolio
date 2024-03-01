@@ -8,12 +8,18 @@ import Momnt from '../assets/momnt.jpg'
 import Chatify from '../assets/chatify.jpg'
 import Memorial from '../assets/memorial.jpg'
 import Invisionapp from '../assets/invisionapp.jpg'
+import BizBuySell from '../assets/bizbuysell.png'
+import Memorise from '../assets/memorise.png'
+import Shopping from '../assets/shopping.png'
+import PetPlate from '../assets/petplate.png'
+import HelloTax from '../assets/hellotax.png'
+import Conectar from '../assets/conectar.png'
 
 const divStyle = {
-    width: "85%",
-    marginBottom: "50px",
-    position: "relative",
-    textAlign: "center",
+  width: "85%",
+  marginBottom: "50px",
+  position: "relative",
+  textAlign: "center",
 }
 
 export default function About() {
@@ -25,27 +31,36 @@ export default function About() {
   ];
   return (
     <div id={"back-to-Portfolio"} style={divStyle}>
-    <TypographyCaption>
-      Portfolio
-    </TypographyCaption>
-        <MediaCard actions={actions} imageSrc={Momnt}>
+      <TypographyCaption>
+        Portfolio
+      </TypographyCaption>
+      <MediaCard actions={actions} imageSrc={BizBuySell}>
+        <b>BizBuySell</b>
+      </MediaCard>
+      <MediaCard actions={actions} imageSrc={Memorise}>
+        <b>Memorise</b>
+      </MediaCard>
+      <MediaCard actions={actions} imageSrc={Shopping}>
+        <b>Shopping</b>
+      </MediaCard>
+      {/* <MediaCard actions={actions} imageSrc={Momnt}>
         Artis Technologies
-        </MediaCard>
-        <MediaCard actions={actions} imageSrc={Collabera}>
+      </MediaCard>
+      <MediaCard actions={actions} imageSrc={Collabera}>
         Collabera
-        </MediaCard>
-        <MediaCard actions={actions} imageSrc={Deloitte}>
+      </MediaCard>
+      <MediaCard actions={actions} imageSrc={Deloitte}>
         Deloitte
-        </MediaCard>
-        <MediaCard actions={actions} imageSrc={Chatify}>
-        Chatify
-        </MediaCard>
-        <MediaCard actions={actions} imageSrc={Invisionapp}>
-        Invision App
-        </MediaCard>
-        <MediaCard actions={actions} imageSrc={Memorial}>
-        Memorial Frontend
-        </MediaCard>
+      </MediaCard> */}
+      <MediaCard actions={actions} imageSrc={PetPlate}>
+        <b>PetPlate</b>
+      </MediaCard>
+      <MediaCard actions={actions} imageSrc={HelloTax}>
+        <b>HelloTax</b>
+      </MediaCard>
+      <MediaCard actions={actions} imageSrc={Conectar}>
+        <b>Conectar</b>
+      </MediaCard>
     </div>
   );
 }

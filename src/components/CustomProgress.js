@@ -14,9 +14,10 @@ const barStyle = {
 const progressStyle = {
     // backgroundColor: '#252934',
     // backgroundColor: '#427375',
-    backgroundColor: '#4D556A',
+    // backgroundColor: '#4D556A',
     height: "100%",
-    position: 'absolute'
+    position: 'absolute',
+    borderRadius: 5
 }
 
 const containerStyle = {
@@ -28,18 +29,19 @@ const containerStyle = {
 }
 
 export default function CustomProgress(props) {
-    const {name, value} = props;
-  return (
-    <Box sx={containerStyle}>
-        <Box style={{marginBottom:"5px"}}>
-            <Typography variant="body2" color="primary" sx={{marginLeft:"5px", float:"left"}}>{name}</Typography>
-            <Typography variant="body2" color="primary" sx={{float:"right", marginRight:"5px"}}>{`${Math.round(value,)}%`}</Typography>
+    const { name, value, color } = props;
+
+    return (
+        <Box sx={containerStyle}>
+            <Box style={{ marginBottom: "5px" }}>
+                <Typography variant="body2" color="primary" sx={{ marginLeft: "5px", float: "left" }}>{name}</Typography>
+                <Typography variant="body2" color="primary" sx={{ float: "right", marginRight: "5px" }}>{`${Math.round(value,)}%`}</Typography>
+            </Box>
+            <Box sx={barStyle}>
+                {/* <LinearProgress variant="determinate" value={80}/> */}
+                <Box sx={progressStyle} width={value + "%"} style={{ backgroundColor: color }}></Box>
+            </Box>
         </Box>
-        <Box sx={barStyle}>
-            {/* <LinearProgress variant="determinate" value={80}/> */}
-            <Box sx={progressStyle} width={value+"%"}></Box>
-        </Box>
-    </Box>
-  );
+    );
 }
 

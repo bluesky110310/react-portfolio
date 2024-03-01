@@ -13,10 +13,12 @@ export default function About() {
         <CardContent sx={{ width: "100%" }}>
           <TypographyCaption>About Me</TypographyCaption>
           <Typography variant="h5" color="secondary">
-            Senior Software Engineer with <b>10+</b> years of excellent experience, involved in complete SDLC including analysis, design, development, implementation, testing, support, and maintenance of enterprise-level web applications using <b>Java</b>, <b>PHP</b>, <b>Node.js</b> & related technologies.
-            <br />
-            Developed dozens of business enterprise websites such as healthcare, e-commerce, bank management system, etc.
-            <br />
+            <div style={{ textIndent: 20 }}>
+              With over <b>12</b> years of experience in tech, working in several software development companies, I have played an essential role in developing and improving a wide range of software projects & products.
+            </div>
+            <div style={{ textIndent: 20 }}>
+              Excellent reputation for resolving problem and improving customer satisfaction.
+            </div>
           </Typography>
         </CardContent>
       </div>

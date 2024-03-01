@@ -12,18 +12,19 @@ import Employment from "./pages/Employment";
 import Portfolio from "./pages/Portfolio"
 
 function App() {
-    const skillNames = [ "HTML/CSS", "Bootstrap", "jQuery", "JavaScript", "Java", "Srping frameworks", "JSP", "Maven", "PHP", "Laravel", "Node.js", "Express" ];
-    const skillValues = [ 100, 100, 100, 100, 100, 100, 100, 90, 80, 80, 80, 80 ];
+    const skillNames = [ "JavaScript", "TypeScript", "Java", "Srping MVC", "Spring Boot", "JSP", "Maven", "PHP", "Laravel", "Node.js", "Express", "MySQL", "PostgreSQL", "Git" ];
+    const skillValues = [ 100, 100, 100, 100, 100, 90, 80, 80, 80, 80, 80, 80, 80, 80 ];
+    const skillColors = [ 'cornflowerblue', 'cornflowerblue', 'cornflowerblue', 'cornflowerblue', 'cornflowerblue', 'burlywood', 'cadetblue', 'cadetblue', 'cadetblue', 'cadetblue', 'cadetblue', 'cadetblue', 'cadetblue', 'cadetblue' ];
     // const pages = ['Home', 'About', 'Skills', 'Portfolio', 'Employment', 'WorkExperience', 'Education'];
     
-    // const settings = ['Rain', 'Line', 'Star'];
+    const settings = ['Rain', 'Line', 'Star'];
     // const [particleVal, setParticleVal] = React.useState('Rain');
     return (
         <CustomBox>
             {/* <Navbar pages={pages} settings={settings} settingAction={selectParitlces}></Navbar> */}
             <Intro particleValue="Rain"></Intro>
             <About></About>
-            <Skills skillNames={skillNames} skillValues={skillValues}></Skills>
+            <Skills skillNames={skillNames} skillValues={skillValues} skillColors={skillColors}></Skills>
             <Portfolio></Portfolio>
             <Employment></Employment>
             {/* <WorkExperience></WorkExperience> */}

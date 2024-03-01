@@ -20,7 +20,7 @@ function useWindowWidth() {
 }
 
 export default function Skills(props) {
-  const { skillNames, skillValues } = props;
+  const { skillNames, skillValues, skillColors } = props;
   const width = useWindowWidth();
   return (
     <CustomCard>
@@ -36,6 +36,7 @@ export default function Skills(props) {
                     name={val}
                     value={skillValues[index]}
                     key={index}
+                    color={skillColors[index]}
                   ></CustomProgress>
                 ) : (
                   ""
@@ -49,6 +50,7 @@ export default function Skills(props) {
                     name={val}
                     value={skillValues[index]}
                     key={index}
+                    color={skillColors[index]}
                   ></CustomProgress>
                 ) : (
                   ""
@@ -63,6 +65,7 @@ export default function Skills(props) {
                 name={val}
                 value={skillValues[index]}
                 key={index}
+                color={skillColors[index]}
               ></CustomProgress>
             );
           })
